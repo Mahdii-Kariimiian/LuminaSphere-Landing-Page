@@ -1,0 +1,38 @@
+.cta-button {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #e81416;
+    /* background: linear-gradient(
+        59deg,
+        #e81416 14%,
+        #ffa500 28%,
+        #faeb36 42%,
+        #79c314 56%,
+        #487de7 70%,
+        #4b369d 84%,
+        #70369d 100%
+    ); */
+    z-index: 100;
+}
+
+.cta-button:hover {
+    background: #ffa500;
+    /* background: linear-gradient(
+        59deg,
+        #e81416 0%,
+        #ffa500 20%,
+        #faeb36 35%,
+        #79c314 60%,
+        #487de7 80%,
+        #4b369d 100%,
+        #70369d 100%
+    ); */
+}
